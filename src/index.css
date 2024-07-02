@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500 800; /* This is correct for variable fonts */
+    font-display: swap;
+    src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype-variations');
+}
+
+
+body {
+    background-color: #F4D04E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
